@@ -6,3 +6,5 @@ RUN apt-get update && apt-get -y install curl unzip git   openssl
 RUN curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
 
 RUN apt-get -y install nodejs
+
+RUN npm install --global yarn
