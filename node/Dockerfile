@@ -8,4 +8,4 @@ RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get -y install nodejs
 
 # npm 8
-RUN npm install --global npm
+RUN npm install --global npm@8.1.4
